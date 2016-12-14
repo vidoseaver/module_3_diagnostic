@@ -1,7 +1,47 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/vidoseaver/turing/3/module_3_diagnostic/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        0
+      ],
+      "/Users/vidoseaver/turing/3/module_3_diagnostic/config/application.rb": [
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/vidoseaver/turing/3/module_3_diagnostic/config/boot.rb": [
+        1,
+        null,
+        1
+      ]
     },
-    "timestamp": 1481675331
+    "timestamp": 1481733408
   }
 }

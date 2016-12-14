@@ -1,14 +1,14 @@
-require 'simplecov'
-require 'vcr'
-SimpleCov.start do
-    add_filter "/spec/"
-end
-
-if ENV['COVERAGE'] == 'true'
-  require 'simplecov'
-
-  SimpleCov.start
-end
+# require 'simplecov'
+# require 'vcr'
+# SimpleCov.start do
+#     add_filter "/spec/"
+# end
+#
+# if ENV['COVERAGE'] == 'true'
+#   require 'simplecov'
+#
+#   SimpleCov.start
+# end
 
 # VCR.configure do |config|
 #   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
