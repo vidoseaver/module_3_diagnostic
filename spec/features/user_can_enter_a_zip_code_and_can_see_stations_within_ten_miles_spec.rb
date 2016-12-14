@@ -11,7 +11,8 @@ RSpec.feature "user enters a zipcode and clicks search" do
       fill_in "q", :with => zipcode
       click_button "Locate"
 
-      expect(current_path).to have_content("/search/#{zipcode}")
+      expect(current_path).to have_content("/search")
+      expect(current_path).to have_content("#{zipcode}")
     end
   end
 end

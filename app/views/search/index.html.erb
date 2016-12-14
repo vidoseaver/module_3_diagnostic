@@ -1,2 +1,9 @@
-<h1>Search#index</h1>
-<p>Find me in app/views/search/index.html.erb</p>
+<h1>Electric Stations</h1>
+
+<% @electric_stations.each do |station| %>
+<p> <h3> <%= station.name %></h3> </p>
+  <p><%= station.address %> </p>
+  <p><%= station.fuel_types %> </p>
+  <p><%= station.distance %> </p>
+  <p><%= station.access_times %> </p>
+<% end %>
