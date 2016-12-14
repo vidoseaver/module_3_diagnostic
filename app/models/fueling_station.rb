@@ -1,4 +1,4 @@
-class FuelingStation
+class FuelStation
   attr_reader :id, :name, :address,:fuel_types, :distance, :access_times
   def initialize(attributes)
     @id = attributes[:id]
@@ -13,7 +13,7 @@ class FuelingStation
     parsed_response = JSON.parse(raw_json, symbolize_names:true)
     fuel_stations = parsed_response[:fuel_stations]
     fuel_stations.map do |station|
-      FuelingStation.new(station)
+      FuelStation.new(station)
     end
   end
 end
